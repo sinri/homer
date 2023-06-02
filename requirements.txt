@@ -1,0 +1,9 @@
+# ZIYA needs:
+#torch==1.12.1
+#tokenizers==0.13.3
+
+torch
+tokenizers
+transformers
+
+xformers
