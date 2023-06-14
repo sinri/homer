@@ -7,3 +7,5 @@ tokenizers
 transformers
 
 xformers
+sentencepiece
+cpm_kernels

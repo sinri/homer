@@ -3,6 +3,8 @@ from transformers import pipeline, TextGenerationPipeline, set_seed
 
 
 class GPT2Homer:
+    model_name = 'gpt2'
+
     def __init__(self, model, **kwargs):
         # self.__pipeline = TextGenerationPipeline(model, **kwargs)
         self.__pipeline = pipeline('text-generation', model=model, **kwargs)
